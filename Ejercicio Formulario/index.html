@@ -6,6 +6,49 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="">
+        <fieldset>
+
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+            </div>
     
+            <br><div>
+                <label for="name">Apellido</label>
+                <input type="number" name="price" id="price" placeholder="Apellidos">
+            </div>
+    
+            <br><div>
+                <label for="name">Fecha de Nacimiento</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+            <br><div>
+                <label for="email">Correo</label>
+                <input type="email" placeholder="Ej:adriannunez@gmail.com">
+            </div>
+
+           <br> <div>
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass" placeholder="Contraseña" minlength="8" required>
+            </div>
+
+            <br><div>
+                <select name="" id="">
+                    <option value="">Hombre</option>
+                    <option value="">Mujer</option>
+                    <option value="">Prefiero no decirlo</option>
+                </select>
+            </div>
+
+            <br><div>
+                <label for="newsletter">Aceptas lo terminos</label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="Yes">
+            </div>
+    
+        </fieldset>
+        <br><button type="submit">Enviar</button>        
+    </form>
 </body>
 </html>
